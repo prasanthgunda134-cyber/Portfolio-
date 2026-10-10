@@ -1,64 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fighter Prasanth | Portfolio</title>
+<title>Prasanth Gunda - Developer</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#0f0f0f;color:#fff;line-height:1.6}
-nav{padding:20px;display:flex;justify-content:space-between;align-items:center;background:#111;border-bottom:1px solid #333}
-nav h2 span{color:#ff4500}
-.hero{text-align:center;padding:100px 20px}
-.hero h1{font-size:40px;margin-bottom:10px}
-.hero p{color:#aaa;margin-bottom:25px}
-.btn{background:#ff4500;color:#fff;padding:12px 25px;text-decoration:none;border-radius:25px;margin:5px;display:inline-block}
-.btn.outline{background:transparent;border:1px solid #ff4500}
-section{padding:60px 20px;max-width:900px;margin:auto}
-h2{font-size:28px;margin-bottom:20px;text-align:center;color:#ff4500}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.card{background:#1a1a1a;padding:20px;border-radius:12px;border:1px solid #333;transition:0.3s}
-.card:hover{border-color:#ff4500;transform:translateY(-5px)}
-.card h3{margin-bottom:10px}
-form{display:flex;flex-direction:column;gap:15px;max-width:500px;margin:auto}
-input,textarea{padding:12px;border-radius:8px;border:1px solid #333;background:#1a1a1a;color:#fff}
-button{padding:12px;background:#ff4500;border:none;color:#fff;border-radius:8px;font-weight:bold;cursor:pointer}
-footer{text-align:center;padding:20px;background:#111;color:#777;margin-top:40px}
+body{margin:0;font-family:Arial;background:#f8f9fa;color:#333}
+.hero{background:linear-gradient(135deg,#1877f2,#00c6ff);color:#fff;padding:60px 20px;text-align:center}
+.hero h1{font-size:32px;margin:0}
+.hero p{font-size:18px;opacity:.9}
+.card{background:#fff;max-width:600px;margin:-30px auto 20px;border-radius:16px;padding:25px;box-shadow:0 8px 20px rgba(0,0,0,.1)}
+h2{color:#1877f2}
+.project{border:1px solid #eee;padding:15px;border-radius:12px;margin:12px 0}
+.project a{background:#1877f2;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;display:inline-block;margin-top:8px;font-weight:bold}
+.btn{background:#000;color:#fff;padding:12px 22px;border-radius:10px;text-decoration:none;display:inline-block;margin:8px 5px}
+.skills span{background:#eef4ff;color:#1877f2;padding:6px 12px;border-radius:20px;margin:4px;display:inline-block;font-size:14px;font-weight:bold}
+footer{text-align:center;padding:20px;color:#888}
 </style>
 </head>
 <body>
-
-<nav><h2>FIGHTER<span>./</span></h2><a href="#contact" style="color:#fff;text-decoration:none">Contact</a></nav>
-
-<section class="hero">
-<h1>Hi, I'm prasanth🔥</h1>
-<p>13 Days Journey Complete | Web Developer | Fighter</p>
-<div>
-<a href="#projects" class="btn">View Projects</a>
-<a href="#contact" class="btn outline">Contact Me</a>
+<div class="hero">
+<h1>Hi, I'm Prasanth Gunda 👋</h1>
+<p>Aspiring Web Developer | HTML • CSS • JavaScript</p>
+<a class="btn" href="https://github.com/prasanthgunda134-cyber">GitHub</a>
+<a class="btn" href="mailto:prasanthgunda134@gmail.com">Contact Me</a>
 </div>
-</section>
 
-<section id="projects">
-<h2>My Projects</h2>
-<div class="cards">
-<div class="card"><h3>💰 Expense Tracker</h3><p>Track your money with charts & local storage. Built with HTML, CSS & JS</p></div>
-<div class="card"><h3>🔥 Fighter Portfolio</h3><p>13 Days Journey - My personal story site. The journey of a fighter!</p></div>
-<div class="card"><h3>✅ To-Do App</h3><p>Task manager built with JavaScript. Add, delete & complete tasks.</p></div>
+<div class="card">
+<h2>About Me</h2>
+<p>I'm passionate about building clean, useful websites. Currently learning web development and building live projects on GitHub Pages. From Tadikonda, AP.</p>
+
+<h2>Skills</h2>
+<div class="skills">
+<span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub</span><span>Responsive Design</span><span>LocalStorage</span>
 </div>
-</section>
 
-<section id="contact">
-<h2>Contact Me</h2>
-<form onsubmit="alert('Message sent ra Fighter!');return false;">
-<input type="text" placeholder="Your Name" required>
-<input type="email" placeholder="Email" required>
-<textarea placeholder="Your Message" rows="4" required></textarea>
-<button type="submit">Send Message</button>
-</form>
-</section>
+<h2>🚀 My Projects (Live)</h2>
 
-<footer>© 2026 Fighter | Built with 🔥 | 13 Days Journey</footer>
+<div class="project">
+<h3>✅ 1. Pro Todo App</h3>
+<p>Advanced todo with Priority filter, Search, Dark Mode, Task counter.</p>
+<a href="https://prasanthgunda134-cyber.github.io/todo-pro/" target="_blank">View Live →</a>
+</div>
 
+<div class="project">
+<h3>✅ 2. Simple Todo App</h3>
+<p>My first ever live website - Simple, fast, mobile-friendly todo app.</p>
+<a href="https://prasanthgunda134-cyber.github.io/todo-app/" target="_blank">View Live →</a>
+</div>
+
+<h2>📩 Contact</h2>
+<p>Email: prasanthgunda134@gmail.com<br>Location: Tadikonda, Andhra Pradesh</p>
+</div>
+
+<footer>Built with ❤️ by Prasanth • 2026</footer>
 </body>
 </html>
